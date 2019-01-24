@@ -31,8 +31,11 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    
+    public void testAdd(){
+    	
+    	App app =new App();
+    	assert(5==app.add(2, 3));
+    	
     }
 }
